@@ -1,0 +1,9 @@
+export const SET_LST_TICKET_OFFICES = "SET_LST_TICKET_OFFICES";
+export const PICK_CHAIR = "PICK_CHAIR";
+export const CLEAR_YOUR_CHAIR = "CLEAR_YOUR_CHAIR";
+export const TRANSFER_TAB = "TRANSFER_TAB";
+export const TAB_NUMBER = {
+  TAB01: "1",
+  TAB02: "2",
+};
+export const LOAD_LST_CHAIR_OTHERS_PICK = "LOAD_LST_CHAIR_OTHERS_PICK";

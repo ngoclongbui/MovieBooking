@@ -1,0 +1,2 @@
+export const SET_LST_CINEMA = "SET_LST_CINEMA";
+export const SET_SHOWTIME_MOVIE = "SET_SHOWTIME_MOVIE";

@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e5eff8 !important;
+  user-select: none !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* fix background autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+  color: #000000 !important;
+  background-color: transparent !important;
+  transition: background-color 9999s !important;
+}
+
+/*custom scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightblue;
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ant-tabs-dropdown-menu {
+  background-color:#e5eff8 !important;
+  border-radius: 10px !important;
+}
+
+/*fix carousel*/
+.slick-dots-bottom {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.slick-slide div {
+  width: 100% !important;
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:before {
+  color: transparent !important;
+}
+
+.detailMovie .ant-tabs-tab {
+  color: rgb(148 163 184)
+}
+
+/* custom Navlink active*/
+.linkMenu .active {
+  color:rgb(124 58 237 / 1);
+  border-color: rgb(124 58 237 / 1);
+}
+
+/*fix trigger menu layout admin*/
+.adminTemplate .ant-layout-sider-trigger {
+  position: absolute !important;
+}
+
+/*custom margin-bottom form antd*/
+.adminPages .ant-form-item {
+  margin-bottom: 12px;
+}
+
+/*custom danger button antd */
+.btnDanger.ant-btn:focus,
+.btnDanger.ant-btn:hover {
+  color: rgba(255, 0, 0, 0.5) !important;
+  border-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+.btnSuccess.ant-btn:focus,
+.btnDanger.ant-btn:hover {
+  opacity: 0.8;
+}
+
+.btnSuccess.ant-btn {
+  color: rgb(31, 203, 31) !important;
+  border-color: rgb(31, 203, 31) !important;
+}
+
+.btnSuccess.ant-btn.ant-btn-link:focus,
+.btnSuccess.ant-btn.ant-btn-link:hover {
+  opacity: 0.6 !important;
+  border-color: transparent !important;
+}
+
+.btnSuccess.ant-btn.ant-btn-link {
+  transition: all 0.4s;
+  color: rgb(31, 203, 31) !important;
+  border-color: transparent !important;
+}
+
+/*custom select antd SignUp*/
+.signUp .ant-select-selector {
+  padding: 0 0 !important;
+}
+
+.signUp .ant-select-selector input {
+  font-size: 0.875rem/* 14px */;
+  line-height: 1.25rem/* 20px */;
+}
+
+.signUp input::-webkit-outer-spin-button,
+.signUp input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*custom background input*/
+.adminTemplate .ant-input,
+.adminPages .ant-input,
+.adminPages .ant-input-number,
+.adminPages .ant-input-affix-wrapper,
+.adminPages .ant-select-selector,
+.adminPages .ant-picker,
+.adminPages .ant-input-number-handler-wrap,
+.adminPages .ant-btn  {
+  background-color: transparent !important;
+}
+
+/*custom tab style antd*/
+.checkOut .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fb923c;
+  text-shadow: 0 0 0.25px #fb923c;
+  border-color: #fb923c;
+}
+
+.checkOut .ant-tabs-tab:hover .ant-tabs-tab-btn,
+.checkOut .ant-tabs-tab-btn:hover,
+.checkOut .ant-tabs-tab-btn:focus,
+.checkOut .ant-tabs-tab-btn:active {
+  color: #fb923c !important;
+}
+
+.checkOut .ant-tabs-tab {
+  color: gray;
+}
+
+.checkOut .ant-tabs-top > .ant-tabs-nav:before {
+  border-bottom: 1px solid gray;
+}
+
+.checkOut .ant-tabs-ink-bar {
+  background: #fb923c;
+}
+
+
+
